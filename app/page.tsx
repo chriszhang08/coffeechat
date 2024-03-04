@@ -1,11 +1,19 @@
-import { Welcome } from '../components/Welcome/Welcome';
-import { ColorSchemeToggle } from '../components/ColorSchemeToggle/ColorSchemeToggle';
+'use client';
+
+import CoachesFeed from '@/components/CoachesFeed/CoachesUserStack';
+import NavbarSearch from '@/components/Navbar/Navbar';
+import styles from './profile/Home.module.css';
 
 export default function HomePage() {
   return (
     <>
-      <Welcome />
-      <ColorSchemeToggle />
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+        <NavbarSearch />
+        <div className={styles.stack}>
+          <h1>Find Coaches For You</h1>
+          <CoachesFeed />
+        </div>
+      </div>
     </>
   );
 }

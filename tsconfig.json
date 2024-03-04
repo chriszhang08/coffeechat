@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "types": ["node", "jest", "@testing-library/jest-dom"],
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -16,7 +15,8 @@
     "jsx": "preserve",
     "incremental": true,
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"],
+      "react": [ "./node_modules/@types/react" ],
     },
     "plugins": [{ "name": "next" }]
   },

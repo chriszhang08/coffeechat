@@ -1,0 +1,19 @@
+Change location to languages spoken
+Don't have send a message button
+Advertise experiences/eelvator pitch 50 words ish
+ - like ex mckinsey ex etc
+
+Make a coaches profile page
+ - Reviews, experiences, resume, languages spoken, etc
+ - Location
+ - Bigger calendar
+
+Elements of Coach card
+ - Name
+ - Picture
+ - Linkedin Summary (add like ...)
+ - Reviews
+ - Change send message button to schedule meeting button, which will toggle drop down
+
+Inspiration from Linkedin
+

@@ -1,6 +1,6 @@
 .comment {
     padding: var(--mantine-spacing-lg) var(--mantine-spacing-xl);
-    width: 30%;
+    width: 350px;
 }
 
 .body {

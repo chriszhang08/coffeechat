@@ -1,6 +1,10 @@
 .card {
     background-color: light-dark(var(--mantine-color-white), var(--mantine-color-dark-7));
-    width: 30%;
+    width: 350px;
+}
+
+.cardsnap {
+    width: 300px;
 }
 
 .section {

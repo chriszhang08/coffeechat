@@ -1,9 +1,9 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Select, Table, TagsInput } from '@mantine/core';
-import CoachProfileCard from '@/components/CoachesFeed/CoachProfileCard';
+import { Grid, Select, Table, TagsInput } from '@mantine/core';
 import fakePeople from '@/data/mock-data/fakePeople';
+import { ProfileBadgeSnapshot } from '@/components/ProfilePage/ProfileBadge/ProfileBadgeSnapshot';
 
 export function CoachesUserStack() {
   const [sortBy, setSortBy] = useState('default');
@@ -49,7 +49,9 @@ export function CoachesUserStack() {
   sortPeople(sortBy);
 
   const rows = sortedPeople.map((person) => (
-    <CoachProfileCard key={person.id} person={person} />
+    <Grid.Col span={4}>
+      <ProfileBadgeSnapshot key={person.id} person={person} />
+    </Grid.Col>
   ));
 
   const options = [
@@ -89,16 +91,9 @@ export function CoachesUserStack() {
         />
       </div>
       <Table.ScrollContainer minWidth={800}>
-        <Table verticalSpacing="md">
-          {/*<Table.Thead>*/}
-          {/*  <Table.Tr>*/}
-          {/*    <Table.Th>Coach&apos;s Name</Table.Th>*/}
-          {/*    <Table.Th>Rating</Table.Th>*/}
-          {/*    <Table.Th>Location</Table.Th>*/}
-          {/*  </Table.Tr>*/}
-          {/*</Table.Thead>*/}
-          <Table.Tbody>{rows}</Table.Tbody>
-        </Table>
+        <Grid style={{ paddingTop: 20 }}>
+          {rows}
+        </Grid>
       </Table.ScrollContainer>
     </div>
   );

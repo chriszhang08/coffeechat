@@ -3,7 +3,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-1.png',
         name: 'Alex Zederbauer',
-        job: 'Private Equity',
+        description: 'Private Equity',
         email: 'rob_wolf@gmail.com',
         rate: 22,
         id: 1,
@@ -23,7 +23,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-5.png',
         name: 'Andres Ramirez',
-        job: 'Consultant',
+        description: 'Consultant',
         email: 'jj@breaker.com',
         rate: 45,
         id: 2,
@@ -43,7 +43,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-3.png',
         name: 'Chris Zhang',
-        job: 'Software Engineer',
+        description: 'Software Engineer',
         email: 'henry@silkeater.io',
         rate: 76,
         id: 3,
@@ -52,7 +52,7 @@ const fakePeople = [
             "Engineering",
             "Graduate",
             "In-State",
-            "Available Today",
+            "Available Today"
         ],
         rating: 5,
         numReviews: 50,
@@ -62,7 +62,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-3.png',
         name: 'Bill Horsefighter',
-        job: 'Junior @ Harvard',
+        description: 'Junior @ Harvard',
         email: 'bhorsefighter@gmail.com',
         rate: 15,
         id: 4,
@@ -71,7 +71,7 @@ const fakePeople = [
             "Philosophy Major",
             "Junior",
             "First Generation",
-            "Black",
+            "Black"
         ],
         rating: 4,
         numReviews: 30,
@@ -81,7 +81,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-2.png',
         name: 'Jeremy Footviewer',
-        job: 'College Admissions Consultant',
+        description: 'College Admissions Consultant',
         email: 'jeremy@foot.dev',
         rate: 98,
         id: 5,

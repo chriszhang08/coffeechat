@@ -3,7 +3,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-1.png',
         name: 'Alex Zederbauer',
-        description: 'Private Equity',
+        description: 'Private Equity @ JP Morgan | Founder of WaterTalks',
         email: 'rob_wolf@gmail.com',
         rate: 22,
         id: 1,
@@ -23,7 +23,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-5.png',
         name: 'Andres Ramirez',
-        description: 'Consultant',
+        description: 'Junior Consultant @ EY-Parthenon | Prev @ McKinsey, PwC, and BCG',
         email: 'jj@breaker.com',
         rate: 45,
         id: 2,
@@ -43,7 +43,7 @@ const fakePeople = [
         avatar:
             'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-3.png',
         name: 'Chris Zhang',
-        description: 'Software Engineer',
+        description: 'SWE @ CCI | Commodities, Quant, and Math | Prev @ Google, NVIDIA',
         email: 'henry@silkeater.io',
         rate: 76,
         id: 3,

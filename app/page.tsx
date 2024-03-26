@@ -10,7 +10,7 @@ export default function HomePage() {
       <div style={{ display: 'flex', flexDirection: 'row' }}>
         <NavbarSearch />
         <div className={styles.stack}>
-          <h1>Find Coaches For You</h1>
+          <h1>Find Mentors For You</h1>
           <CoachesFeed />
         </div>
       </div>

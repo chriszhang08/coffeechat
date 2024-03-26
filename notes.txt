@@ -7,13 +7,14 @@ Make a coaches profile page
  - Reviews, experiences, resume, languages spoken, etc
  - Location
  - Bigger calendar
+ - Fix the calendar 3 days selection
 
 Elements of Coach card
- - Name
- - Picture
+ - Name x
+ - Picture x
  - Linkedin Summary (add like ...)
  - Reviews
- - Change send message button to schedule meeting button, which will toggle drop down
+ - Availability this week, tool tip to hover?
 
 Inspiration from Linkedin
 

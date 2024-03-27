@@ -11,29 +11,22 @@ async function Page() {
       <HeaderSearch />
       <div style={{
         display: 'flex',
-        flexDirection: 'row',
-        justifyContent: 'center',
+        flexDirection: 'column',
+        justifyContent: 'flex-end',
+        alignItems: 'center',
+        padding: 10,
       }}
       >
         <div style={{
           display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'flex-end',
-          alignItems: 'center',
-          padding: 10,
+          flexDirection: 'row',
+          justifyContent: 'center',
         }}
         >
           <ProfileBadge />
-          <CommentStack />
-        </div>
-        <div style={{
-          display: 'flex',
-          flexDirection: 'column',
-          padding: 10,
-        }}
-        >
           <AvailabilityCalendar />
         </div>
+        <CommentStack />
       </div>
     </>
   );

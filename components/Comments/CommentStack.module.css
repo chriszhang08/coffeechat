@@ -1,6 +1,14 @@
 .comment {
-    padding: var(--mantine-spacing-lg) var(--mantine-spacing-xl);
-    width: 350px;
+    display: grid; /* Setting the comment area to have grid display */
+    grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+    grid-gap: var(--mantine-spacing-md); /* Specify the gap between items */
+    width: 800px;
+}
+
+@media (max-width: 768px) {
+    .comment {
+        grid-template-columns: 1fr; /* Stack in one column on smaller screens */
+    }
 }
 
 .body {

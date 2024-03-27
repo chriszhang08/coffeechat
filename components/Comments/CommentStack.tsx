@@ -9,9 +9,11 @@ export function CommentStack() {
   ));
 
   return (
-    <Paper className={classes.comment}>
+    <div>
       <h1>Reviews</h1>
-      {comments}
-    </Paper>
+      <Paper className={classes.comment}>
+        {comments}
+      </Paper>
+    </div>
   );
 }

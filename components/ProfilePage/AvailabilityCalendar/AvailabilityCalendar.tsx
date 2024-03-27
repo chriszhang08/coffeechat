@@ -31,7 +31,7 @@ export function AvailabilityCalendar() {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center',
-        width: '300px',
+        width: '400px',
       }}
       >
         <h1 style={{ textAlign: 'center' }}>Book a Session</h1>
